@@ -25,9 +25,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/tiny-slider/dist/tiny-slider.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.slim.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "./node_modules/tiny-slider/dist/tiny-slider.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/tiny-slider.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,6 +99,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "77f46abf-a597-4625-a80b-47e6aa9147cf"
   }
 }
