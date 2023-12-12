@@ -22,23 +22,18 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/admin"
+          
+            
             ],
             "styles": [
-              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "node_modules/tiny-slider/dist/tiny-slider.css",
+            
               "src/assets/css/style.css"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.slim.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "./node_modules/tiny-slider/dist/tiny-slider.js",
-              "src/assets/js/custom.js",
-              "src/assets/js/bootstrap.bundle.min.js",
-              "src/assets/js/tiny-slider.js"
+             
             ]
           },
           "configurations": {
@@ -102,7 +97,10 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+         
+            ]
+            
           }
         }
       }
